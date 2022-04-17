@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Wild Life|Collaboration",
+        "price": "400",
+        "description": "I collab with other photographers in their wild life photography project.If You are interested ,then contact me and click the button below to purchase this package.",
+        "img": "https://i.ibb.co/hd36qr7/s3-bird.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Food Products",
+        "price": "300",
+        "description": "If you got a resturent or a food place and want a photo shoot of you food items and your kitchen ,I can take care of that.To purchase this package Click the button below.",
+        "img": "https://i.ibb.co/3fgyhn0/s2-food.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Blow Writing",
+        "price": "550",
+        "description": "I write blogs on photography,technics,cameras on a daily basis.If you want a blog writer for your websites or social media ,I can help you with that.",
+        "img": "https://i.ibb.co/3dzRZWv/s4-blog.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Lenses",
+        "price": "680",
+        "description": "I sell and exchange camera lense of famous brands like sony, canon . I also sell vintage and antique cameras. Feel free to check out my collection.",
+        "img": "https://i.ibb.co/xgYs83c/s1-lenses.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Photography Workshop",
+        "price": "400",
+        "description": "On my 10 years of journey a wild life photographer, I have learned quite a lot of thinngs. I arrange photography workshops and talk about my experiences and experties.",
+        "img": "https://i.ibb.co/y0Xfgng/s6-workshop.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Modeling Photoshoot",
+        "price": "300",
+        "description": "I do modeling photo shoots. I can provide full package for your modeling portfolio .You can be assured to get your first modeling gig",
+        "img": "https://i.ibb.co/fxnjyFb/royal-anwar-l1-MCA0-Vy-Nrk-unsplash.jpg"
+    }
+]
