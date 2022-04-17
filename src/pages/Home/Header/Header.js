@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home">The Lens Guru</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">The Lens Guru</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Services</Nav.Link>
-            <Nav.Link href="#pricing">Blogs</Nav.Link>
+            <Nav.Link as={Link} to="home#services">Services</Nav.Link>
+            <Nav.Link as={Link} to="/login">Blogs</Nav.Link>
             
           </Nav>
           <Nav>
