@@ -1,4 +1,4 @@
-# Len Guru Website
+# Lens Guru Website
 
 ## Site Link [https://lens-guru.web.app/](https://lens-guru.web.app/)
 
