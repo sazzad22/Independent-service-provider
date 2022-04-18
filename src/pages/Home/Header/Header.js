@@ -45,7 +45,7 @@ const Header = () => {
                 Log out
               </button>
             ) : (
-              <Nav.Link as={Link} to="/login">
+              <Nav.Link className="border  rounded px-3" as={Link} to="/login">
                 Login
               </Nav.Link>
             )}

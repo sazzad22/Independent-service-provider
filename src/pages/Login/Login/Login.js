@@ -11,12 +11,20 @@ const Login = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  let from = location.state?.from?.pathname || "/";
+  
+
   const [
     signInWithEmailAndPassword,
     user,
     loading,
     error,
   ] = useSignInWithEmailAndPassword(auth);
+
+  //redirecting to the page from where he came from
+  if (user) {
+    navigate(from, { replace: true });
+  }
   
   const handleSubmit = event => {
     event.preventDefault();
