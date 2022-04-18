@@ -44,7 +44,7 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Feel free to brows through the website</h3>
+          <h3>Feel free to browse through the website</h3>
           <p>
             I provide other services than wild life photography.
           </p>
