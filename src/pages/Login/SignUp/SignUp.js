@@ -4,6 +4,7 @@ import { Button, Form } from "react-bootstrap";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
+import Loading from "../Loading/Loading";
 
 const SignUp = () => {
   const nameRef = useRef('');
@@ -24,6 +25,9 @@ const SignUp = () => {
     const navigateLogin = () => {
         navigate('/login');
   }
+  if(loading){
+    return <Loading></Loading>
+}
   
   //form handle
   const handleSignUp = e => {

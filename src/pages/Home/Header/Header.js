@@ -49,7 +49,7 @@ const Header = () => {
                 Login
               </Nav.Link>
             )}
-            <Nav.Link as={Link} to="/aboutme">
+            <Nav.Link as={Link} to="/about">
               About Me
             </Nav.Link>
           </Nav>
