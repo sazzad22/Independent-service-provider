@@ -64,7 +64,7 @@ const SignUp = () => {
           Sign Up
         </Button>
       </Form>
-      <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+      <p>Already have an account? <Link to="/login" className='text-primary pe-auto ' onClick={navigateLogin}>Please Login</Link> </p>
     </div>
   );
 };

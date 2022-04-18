@@ -50,7 +50,7 @@ const Login = () => {
         <Button variant="primary" type="submit">
           Login
               </Button>
-              <p>New to the website? <Link to="/signup" className='text-danger pe-auto ' onClick={navigateToSignup} >Please Sign Up</Link></p>
+              <p>New to the website? <Link to="/signup" className='text-primary  pe-auto ' onClick={navigateToSignup} >Please Sign Up</Link></p>
       </Form>
 
       <SocialLogin></SocialLogin>
