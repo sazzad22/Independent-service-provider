@@ -4,9 +4,9 @@ import { Button, Card } from "react-bootstrap";
 const Service = ({service}) => {
   const { id, name, img, price, description } = service;
   return (
-    <div className="g-5 col-sm-12 col-md-6 col-lg-4">
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={img} />
+    <div className=" g-4 p-1 col-sm-12 col-md-6  container-fluid col-lg-4 ">
+      <Card className="p-2  " style={{ width: "100%" }}>
+        <Card.Img variant="top" className="" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
