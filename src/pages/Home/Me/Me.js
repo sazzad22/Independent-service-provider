@@ -4,9 +4,10 @@ import myself from '../../../images/me/the-nigmatic-YefEvN5CDLY-unsplash.jpg'
 
 const Me = () => {
     return (
+        // The second section of the website on the webpage
         <div className='row ms-lg-5 container' >
             <div className='col-sm-12 col-lg-6'>
-                <img className='w-100 p-5' src={myself} alt="" />
+                <img className='w-100 p-5 rounded' src={myself} alt="" />
             </div>
             <div className='col-sm-12 col-lg-6 p-5'>
                 <h2> I am Jason Hoble</h2>

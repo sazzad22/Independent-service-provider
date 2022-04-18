@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap";
 
 const SignUp = () => {
   return (
-    <div className=" mx-auto container w-50">
+    <div className=" mx-auto container w-50 min-vh-100">
       <h3>Sign Up!</h3>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">

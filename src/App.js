@@ -19,6 +19,7 @@ function App() {
     <div >
       <Header></Header>
       <Routes>
+        {/* Routes for the pages and components */}
         <Route path='/' element={<Home></Home>} ></Route>
         <Route path='/home' element={<Home></Home>} ></Route>
         <Route path='/blogs' element={<Blogs></Blogs>} ></Route>
